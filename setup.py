@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
@@ -12,7 +12,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/hamsta25/Backup-CLI",
-    packages=find_packages(),
+    py_modules=["backup_cli"],
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: System Administrators",
