@@ -1,0 +1,17 @@
+include README.md
+include LICENSE
+include CHANGELOG.md
+include PROJECT_SUMMARY.md
+include REQUIREMENTS.md
+include NON_FUNCTIONAL_REQUIREMENTS.md
+include DOCUMENTATION.md
+include ROADMAP.md
+include TASKS.md
+include INSTALL.md
+include requirements.txt
+include pyproject.toml
+include Makefile
+include CMakeLists.txt
+include backup_cli.c
+include build.sh
+include build.bat
