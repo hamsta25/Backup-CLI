@@ -113,6 +113,3 @@ temp/
 # IDE
 *.sublime-project
 *.sublime-workspace
-
-# Distribution
-MANIFEST.in
