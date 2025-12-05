@@ -1,6 +1,7 @@
 include README.md
 include LICENSE
 include CHANGELOG.md
+include PROJECT_SUMMARY.md
 include REQUIREMENTS.md
 include NON_FUNCTIONAL_REQUIREMENTS.md
 include DOCUMENTATION.md
