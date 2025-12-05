@@ -97,9 +97,10 @@ int create_directory_recursive(const char* path) {
     
     for (p = tmp + 1; *p; p++) {
         if (*p == '/' || *p == '\\') {
+            char separator = *p;  /* Remember the separator type */
             *p = 0;
             mkdir(tmp, 0755);
-            *p = '/';
+            *p = separator;  /* Restore original separator */
         }
     }
     

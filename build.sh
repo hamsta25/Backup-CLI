@@ -42,6 +42,10 @@ echo ""
 # Create distribution directory
 echo "Creating distribution directory..."
 mkdir -p dist/backup-cli-${PLATFORM}
+if [ $? -ne 0 ]; then
+    echo "Error: Failed to create distribution directory"
+    exit 1
+fi
 echo "✓ Distribution directory created"
 echo ""
 

@@ -7,7 +7,6 @@ setup(
     name="backup-cli",
     version="1.0.0",
     author="Backup-CLI Team",
-    author_email="",
     description="A powerful command-line interface for system backups",
     long_description=long_description,
     long_description_content_type="text/markdown",

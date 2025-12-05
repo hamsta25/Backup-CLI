@@ -295,7 +295,7 @@
 
 ## 📝 Notes and Decisions
 
-### December 2025
+### December 2024
 - **Decision:** Use both Python and C implementations to provide flexibility
 - **Decision:** Use standard library only for Python to minimize dependencies
 - **Decision:** Support C99 standard for maximum compatibility
