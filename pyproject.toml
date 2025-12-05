@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "backup-cli"
+version = "1.0.0"
+description = "A powerful command-line interface for system backups"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Backup-CLI Team"}
+]
+keywords = ["backup", "cli", "system", "snapshot", "archive"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: System Administrators",
+    "Topic :: System :: Archiving :: Backup",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/hamsta25/Backup-CLI"
+Repository = "https://github.com/hamsta25/Backup-CLI"
+Documentation = "https://github.com/hamsta25/Backup-CLI/blob/main/DOCUMENTATION.md"
+Issues = "https://github.com/hamsta25/Backup-CLI/issues"
+
+[project.scripts]
+backup-cli = "backup_cli:main"
+
+[tool.setuptools]
+packages = ["backup_cli"]
